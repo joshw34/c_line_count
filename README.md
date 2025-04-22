@@ -6,7 +6,7 @@ To install with Lazy.nvim:
 
 ```lua
 {
-  "joshw34/c_count_line",
+  "joshw34/c_line_count",
   ft = "c",
   config = function()
     require("ft_count_lines").setup({
