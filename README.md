@@ -7,7 +7,7 @@ To install with Lazy.nvim:
 ```lua
 {
   "joshw34/c_count_line",
-  ft = "c"
+  ft = "c",
   config = function()
     require("ft_count_lines").setup({
         enable_on_start = true --Default is false
